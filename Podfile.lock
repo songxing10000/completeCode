@@ -1,0 +1,16 @@
+PODS:
+  - Highlightr (2.1.0)
+
+DEPENDENCIES:
+  - Highlightr (~> 2.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Highlightr
+
+SPEC CHECKSUMS:
+  Highlightr: 595f3e100737c8de41113385da8bd0b5b65212c6
+
+PODFILE CHECKSUM: 58c6bda6c6a0bc0a663c558b36571fbc5d707137
+
+COCOAPODS: 1.12.1
