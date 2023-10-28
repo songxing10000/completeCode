@@ -13,21 +13,23 @@
 		049CF0642AE68365008FC7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049CF0622AE68365008FC7B5 /* Main.storyboard */; };
 		049CF06C2AE68C89008FC7B5 /* LineNumberRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CF06B2AE68C89008FC7B5 /* LineNumberRulerView.swift */; };
 		049CF06E2AE68CBB008FC7B5 /* NSTextViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CF06D2AE68CBB008FC7B5 /* NSTextViewEx.swift */; };
-		E1300B739211EF887D0440A6 /* Pods_DocSwiftModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F842DFF69AA360442F9FFCEA /* Pods_DocSwiftModel.framework */; };
+		F7C158E26839AD1BFD8116DE /* Pods_completeCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3260F400B18438E56E591 /* Pods_completeCode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		049CF0592AE68365008FC7B5 /* DocSwiftModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocSwiftModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049CF0592AE68365008FC7B5 /* completeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = completeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049CF05C2AE68365008FC7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049CF05E2AE68365008FC7B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		049CF0602AE68365008FC7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049CF0632AE68365008FC7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		049CF0652AE68365008FC7B5 /* DocSwiftModel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocSwiftModel.entitlements; sourceTree = "<group>"; };
+		049CF0652AE68365008FC7B5 /* completeCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = completeCode.entitlements; sourceTree = "<group>"; };
 		049CF06B2AE68C89008FC7B5 /* LineNumberRulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNumberRulerView.swift; sourceTree = "<group>"; };
 		049CF06D2AE68CBB008FC7B5 /* NSTextViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextViewEx.swift; sourceTree = "<group>"; };
+		28E3260F400B18438E56E591 /* Pods_completeCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_completeCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B65C73DB8134CF88974A52D /* Pods-completeCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-completeCode.debug.xcconfig"; path = "Target Support Files/Pods-completeCode/Pods-completeCode.debug.xcconfig"; sourceTree = "<group>"; };
 		B26EDDD93DA9C8657195BA9E /* Pods-DocSwiftModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocSwiftModel.debug.xcconfig"; path = "Target Support Files/Pods-DocSwiftModel/Pods-DocSwiftModel.debug.xcconfig"; sourceTree = "<group>"; };
 		D7A3A0F0C0AB24FC522FE248 /* Pods-DocSwiftModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocSwiftModel.release.xcconfig"; path = "Target Support Files/Pods-DocSwiftModel/Pods-DocSwiftModel.release.xcconfig"; sourceTree = "<group>"; };
-		F842DFF69AA360442F9FFCEA /* Pods_DocSwiftModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocSwiftModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C7564132317EDB8B5860CE /* Pods-completeCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-completeCode.release.xcconfig"; path = "Target Support Files/Pods-completeCode/Pods-completeCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1300B739211EF887D0440A6 /* Pods_DocSwiftModel.framework in Frameworks */,
+				F7C158E26839AD1BFD8116DE /* Pods_completeCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +47,7 @@
 		049CF0502AE68365008FC7B5 = {
 			isa = PBXGroup;
 			children = (
-				049CF05B2AE68365008FC7B5 /* DocSwiftModel */,
+				049CF05B2AE68365008FC7B5 /* completeCode */,
 				049CF05A2AE68365008FC7B5 /* Products */,
 				CAAB2EFF7AF02CFD9F77EA51 /* Pods */,
 				41BEE928E8573B186F6F3D20 /* Frameworks */,
@@ -55,12 +57,12 @@
 		049CF05A2AE68365008FC7B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				049CF0592AE68365008FC7B5 /* DocSwiftModel.app */,
+				049CF0592AE68365008FC7B5 /* completeCode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		049CF05B2AE68365008FC7B5 /* DocSwiftModel */ = {
+		049CF05B2AE68365008FC7B5 /* completeCode */ = {
 			isa = PBXGroup;
 			children = (
 				049CF05C2AE68365008FC7B5 /* AppDelegate.swift */,
@@ -69,15 +71,15 @@
 				049CF06B2AE68C89008FC7B5 /* LineNumberRulerView.swift */,
 				049CF0602AE68365008FC7B5 /* Assets.xcassets */,
 				049CF0622AE68365008FC7B5 /* Main.storyboard */,
-				049CF0652AE68365008FC7B5 /* DocSwiftModel.entitlements */,
+				049CF0652AE68365008FC7B5 /* completeCode.entitlements */,
 			);
-			path = DocSwiftModel;
+			path = completeCode;
 			sourceTree = "<group>";
 		};
 		41BEE928E8573B186F6F3D20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F842DFF69AA360442F9FFCEA /* Pods_DocSwiftModel.framework */,
+				28E3260F400B18438E56E591 /* Pods_completeCode.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,17 +89,18 @@
 			children = (
 				B26EDDD93DA9C8657195BA9E /* Pods-DocSwiftModel.debug.xcconfig */,
 				D7A3A0F0C0AB24FC522FE248 /* Pods-DocSwiftModel.release.xcconfig */,
+				3B65C73DB8134CF88974A52D /* Pods-completeCode.debug.xcconfig */,
+				D7C7564132317EDB8B5860CE /* Pods-completeCode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		049CF0582AE68365008FC7B5 /* DocSwiftModel */ = {
+		049CF0582AE68365008FC7B5 /* completeCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049CF0682AE68365008FC7B5 /* Build configuration list for PBXNativeTarget "DocSwiftModel" */;
+			buildConfigurationList = 049CF0682AE68365008FC7B5 /* Build configuration list for PBXNativeTarget "completeCode" */;
 			buildPhases = (
 				BF4D5B30B22EEE3B70464FEF /* [CP] Check Pods Manifest.lock */,
 				049CF0552AE68365008FC7B5 /* Sources */,
@@ -109,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = DocSwiftModel;
+			name = completeCode;
 			productName = DocSwiftModel;
-			productReference = 049CF0592AE68365008FC7B5 /* DocSwiftModel.app */;
+			productReference = 049CF0592AE68365008FC7B5 /* completeCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 049CF0542AE68365008FC7B5 /* Build configuration list for PBXProject "DocSwiftModel" */;
+			buildConfigurationList = 049CF0542AE68365008FC7B5 /* Build configuration list for PBXProject "completeCode" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				049CF0582AE68365008FC7B5 /* DocSwiftModel */,
+				049CF0582AE68365008FC7B5 /* completeCode */,
 			);
 		};
 /* End PBXProject section */
@@ -175,7 +178,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DocSwiftModel-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-completeCode-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -188,15 +191,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DocSwiftModel/Pods-DocSwiftModel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-completeCode/Pods-completeCode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DocSwiftModel/Pods-DocSwiftModel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-completeCode/Pods-completeCode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocSwiftModel/Pods-DocSwiftModel-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-completeCode/Pods-completeCode-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -342,11 +345,11 @@
 		};
 		049CF0692AE68365008FC7B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B26EDDD93DA9C8657195BA9E /* Pods-DocSwiftModel.debug.xcconfig */;
+			baseConfigurationReference = 3B65C73DB8134CF88974A52D /* Pods-completeCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DocSwiftModel/DocSwiftModel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = completeCode/completeCode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -358,8 +361,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.drawTest.DocSwiftModel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.drawTest.completeCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -368,11 +372,11 @@
 		};
 		049CF06A2AE68365008FC7B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7A3A0F0C0AB24FC522FE248 /* Pods-DocSwiftModel.release.xcconfig */;
+			baseConfigurationReference = D7C7564132317EDB8B5860CE /* Pods-completeCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DocSwiftModel/DocSwiftModel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = completeCode/completeCode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -384,8 +388,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.drawTest.DocSwiftModel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.drawTest.completeCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -395,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		049CF0542AE68365008FC7B5 /* Build configuration list for PBXProject "DocSwiftModel" */ = {
+		049CF0542AE68365008FC7B5 /* Build configuration list for PBXProject "completeCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049CF0662AE68365008FC7B5 /* Debug */,
@@ -404,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049CF0682AE68365008FC7B5 /* Build configuration list for PBXNativeTarget "DocSwiftModel" */ = {
+		049CF0682AE68365008FC7B5 /* Build configuration list for PBXNativeTarget "completeCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049CF0692AE68365008FC7B5 /* Debug */,
